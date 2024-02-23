@@ -1,0 +1,302 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-repeat: no-repeat;
+  background-size: 100% 150%;    
+}
+
+div.heading{
+font-family: 'Arial', sans-serif;
+background-color: #f4f4f4;
+color: #333;
+margin: 0;
+padding: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+h1{
+  font-size: 3em;
+  color: #333;
+  text-align: center;
+  background: linear-gradient(45deg, #FF5F6D, #FFC371);
+  background-clip: text;
+  color: transparent;
+  margin: 0;
+}
+}
+
+
+
+div.frontimg{
+margin: 0;
+padding: 0;
+display: flex;
+
+
+  img{
+    width: 25%;
+    height: auto;
+    display: block;
+  }
+}
+
+
+
+nav {
+margin-top: 0;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+  
+li {
+    float: right;
+}
+  
+li a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #350101;
+}
+} 
+.accounts {
+position: relative;
+}
+
+.accounts-dropdown {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+background-color: #c41414;
+box-shadow: 0 4px 8px rgba(126, 72, 72, 0.1);
+padding: 10px;
+}
+
+.accounts:hover .accounts-dropdown {
+display: block;
+}
+
+
+div.content-container{
+font-family: 'Arial', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+display: flex;
+
+
+.description {
+  width: 50%;
+  padding: 20px;
+}
+
+.description h2 {
+  color: #333;
+}
+
+.description p {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.contact-button {
+  width: 25%;
+  height: 20%;
+  background-color: #ff3300;
+  color: #272626;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor:pointer;
+  align-self: center;
+}
+
+.photos {
+  width: 50%;
+  
+  border-radius: 15px;
+}
+
+.photos img {
+  width: 45%; 
+  height: auto;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+}
+div.front{
+  ul{
+      list-style-type: none;
+  }
+}
+
+
+div p {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333; 
+}  
+h2, p {
+margin: 0;
+padding: 0;
+}
+
+#about {
+font-family: 'Arial', sans-serif;
+background-color: #f4f4f4;
+color: #333;
+}
+.Aboutcont{
+max-width: 800px;
+margin: auto;
+padding: 20px;
+}
+#about {
+background-color: #fff;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+margin-top: 20px;
+padding: 40px;
+border-radius: 8px;
+}
+
+/* Style for the heading in the About Us section */
+#about h2 {
+font-size: 28px;
+color: #333;
+margin-bottom: 20px;
+}
+
+/* Style for the paragraphs in the About Us section */
+#about p {
+font-size: 16px;
+line-height: 1.6;
+margin-bottom: 15px;
+}
+
+/* Add some margin to the bottom of the page for a cleaner look */
+body {
+margin-bottom: 20px;
+}
+footer {
+background-color: #333;
+color: #fff;
+padding: 1em;
+text-align: center;
+}
+
+
+section {
+font-family: 'Arial', sans-serif;
+background-color: #f4f4f4;
+color: #333;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+padding: 40px;
+text-align: center;
+}
+
+.Aboutcont {
+background-color: #e8e9e3;
+color: #333;
+border-radius: 10px;
+padding: 20px;
+margin: auto;
+max-width: 800px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+color: #333;
+}
+/* Your existing CSS styles for all pages */
+
+/* Your existing CSS styles for all pages */
+
+.slideshow-container {
+max-width: 800px;
+position: relative;
+margin: auto;
+}
+
+.mySlides {
+display: none;
+}
+
+.mySlides img {
+width: 100%;
+border-radius: 10px;
+}
+
+.prev, .next {
+position: absolute;
+top: 50%;
+width: auto;
+margin-top: -30px;
+padding: 16px;
+color: white;
+font-weight: bold;
+font-size: 20px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+background-color: #333;
+transition: background-color 0.3s ease-in-out;
+}
+
+.prev:hover, .next:hover {
+background-color: #555;
+}
+/* Your existing CSS styles for all pages */
+
+.offer-cards {
+display: flex;
+justify-content: space-around;
+margin-top: 20px;
+}
+
+.offer-card {
+width: 30%;
+border-radius: 10px;
+overflow: hidden;
+position: relative;
+margin-bottom: 20px;
+}
+
+.offer-card img {
+width: 100%;
+border-radius: 10px 10px 0 0;
+}
+
+.offer-card .text {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+padding: 10px;
+color: white;
+font-size: 14px;
+font-weight: bold;
+background-color: rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+}
